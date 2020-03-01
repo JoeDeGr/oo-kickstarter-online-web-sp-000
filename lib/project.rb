@@ -1,7 +1,7 @@
 require 'pry'
 
 class Project
-attr_accessor 
+attr_accessor
 attr_reader :backers, :title
 
   def initalize (title)
