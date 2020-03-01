@@ -1,8 +1,9 @@
 require 'pry'
 
 class Project
-attr_accessor :title
-attr_reader :backers
+attr_accessor 
+attr_reader :backers, :title
+
   def initalize (title)
     @title = title
     @backers = []
