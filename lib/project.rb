@@ -11,7 +11,7 @@ attr_reader :backers, :title
 
   def add_backer (backer)
     @backers << backer
-    Backer.back_project(self).uniq
+    backer.back_project(self).uniq
 
   end
 end
