@@ -3,7 +3,6 @@ class Backer
 attr_reader :backed_projects, :name
 
 def initialize (name)
-  #has many Projects
 @backed_projects =[]
 @name=name
 end
